@@ -79,7 +79,7 @@ cc.Class({
     onAdsResult(code, msg) {
         thisNode.label.string = 'onAdsResult';
         thisNode.label.string = 'ads result, resultcode:' + code + ',msg:' + msg;
-        console.log("sfshfhshdh");
+        console.log("kkfkkkkk");
     },
 
     // called every frame
