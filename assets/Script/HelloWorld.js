@@ -1,3 +1,4 @@
+var _i18n = require("LanguageData");
 cc.Class({
     extends: cc.Component,
 
@@ -24,6 +25,7 @@ cc.Class({
         var thisNode = this;
         //this.label.string = this.text;
         //判断是否有合进SDK
+        _i18n.init("en");
         if (typeof (anysdk) == "undefined") {
             thisNode.label.string = "anysdk undefined";
             return;
@@ -84,6 +86,6 @@ cc.Class({
 
     // called every frame
     update: function (dt) {
-
+         _i18n.updateSceneRenderers();
     },
 });
