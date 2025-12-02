@@ -18,7 +18,7 @@ cc.Class({
         },
     },
 
-    // use this for initialization1111111
+    // use this for initialization111111120202020
     onLoad: function () {
         var thisNode = this;
         //this.label.string = this.text;
