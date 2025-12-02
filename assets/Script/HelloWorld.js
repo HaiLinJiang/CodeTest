@@ -16,6 +16,8 @@ cc.Class({
             default: null,
             type: cc.Node
         },
+        // defaults, set visually when attaching this script to the Canvas
+        text: 'Hello, World! Test!'
     },
 
     // use this for initialization
